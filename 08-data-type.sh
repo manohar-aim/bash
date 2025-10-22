@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-number1=100
-number2=200
+NUMBER1=100
+NUMBER2=200
 
-sum =(($number1+$number2))
+sum =$(($NUMBER1+$NUMBER2))
 
 echo "Sum is :$sum"
