@@ -7,7 +7,7 @@ if [ $USERID -ne 0 ]; then
 fi
 
 VALIDATE(){
-    if ($1 -ne 0);then
+    if [ $1 -ne 0 ];then
         echo "Installing $2 is failed"
     else
         echo "Installing $2 is Success"
