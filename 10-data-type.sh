@@ -8,12 +8,14 @@ fi
 
 VALIDATE(){
     if ($1 -ne 0);then
-        echo "Installing $2 is failed"
+        echo "removing $2 is failed"
     else
-        echo "Installing $2 is Success"
+        echo "removing $2 is Success"
     fi
 }
 
-dnf install python3 -y
+dnf remove python3 -y
 VALIDATE $? "Python3"
+
+
 
