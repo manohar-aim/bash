@@ -18,7 +18,7 @@ dnf install python3 -y
 VALIDATE $? "Python3"
 
 dnf install mongodb-mongosh -y
-VALIDATE $? "mongo"
+VALIDATE $? "mongosh"
 
 
 
