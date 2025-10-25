@@ -18,7 +18,6 @@ VALIDATE(){
 
     else
     echo "installing $2 is success"  
-
 }
 
 dnf install mysql -y
